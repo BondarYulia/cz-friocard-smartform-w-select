@@ -1,0 +1,91 @@
+.x_fix_phone,
+.x_order_accepted,
+.x_spinner,
+.x_resubmit_button,
+.x_cta,
+.x_duplicate {
+  display: none;
+}
+
+.x_order_accepted, .x_typewriter {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.x_submit_button {
+  display: block;
+}
+
+.x_order_id {
+  font-size: inherit !important;
+}
+
+.x_spinner {
+  margin-top: 20px;
+}
+
+.x_typewriter {
+  margin: -5px 0 0 0 !important;
+  line-height: 25px !important;
+  min-height: 50px;
+}
+
+.x_countdown {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.x_countdown_digit {
+  background: #ff4848;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 21px !important;
+  padding: 10px;
+}
+
+.x_countdown_separator {
+  font-size: 21px !important;
+}
+
+.x_checklist {
+  font-size: 18px;
+  padding: 0 30px;
+  margin-bottom: 15px;
+}
+
+.x_small-info {
+  margin-bottom: 15px;
+}
+
+.x_checklist ul {
+  list-style: initial;
+  text-align: left;
+}
+
+
+.x_order_accepted, .x_duplicate, .x_cta {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .x_duplicate .x_checklist {
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+.x_invalid {
+  border-color: #ff4848 !important;
+  background: url('../images/icon-warning.svg') right 12px center no-repeat #fff !important;
+}
+
+.x_fix_phone {
+  width: 80%;
+  margin: 10px auto 0 !important;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 1.1 !important;
+  color: #ff4848;
+}
