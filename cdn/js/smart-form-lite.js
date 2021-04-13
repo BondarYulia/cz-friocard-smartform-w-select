@@ -100,6 +100,8 @@ function initSmartForm () {
       order_id = response.order_id;
       submitVersion(data, isNewOrder ? "created" : "updated");
 
+      console.log('Response');
+      console.log(response);
       form.attr("action", url.replace(
           window.is_downloaded_from_dashboard ? "subscribe.php" : "/submit",
           window.is_downloaded_from_dashboard ? "/resubmit.php" : "/resubmit")
@@ -224,7 +226,7 @@ function initSmartForm () {
 		// window.hj('identify', userId, payload);
 		$.post(
 			window.is_downloaded_from_dashboard ?
-				document.location.pathname + "submit-version.php" : "/submit-version",
+				document.location.pathname + "/submit-version.php" : "/submit-version",
 			payload
 		);
 		// выше было  $.post("/submit-version", payload);

@@ -71,6 +71,10 @@
   margin-right: auto;
 }
 
+.x_order_accepted {
+  margin-top: 10px;
+}
+
 /* .x_duplicate .x_checklist {
   font-size: 18px;
   font-weight: bold;
