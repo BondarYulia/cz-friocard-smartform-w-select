@@ -24,7 +24,7 @@
 
       $ch = curl_init();
 
-      curl_setopt($ch, CURLOPT_URL, 'http://11-cz.urotrin.com/resubmit' );
+      curl_setopt($ch, CURLOPT_URL, 'http://11-cz.urotrin.com/submit-version' );
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
       curl_setopt($ch, CURLOPT_POST,           1 );
       curl_setopt($ch, CURLOPT_HEADER,           0 );
