@@ -226,7 +226,7 @@ function initSmartForm () {
 		// window.hj('identify', userId, payload);
 		$.post(
 			window.is_downloaded_from_dashboard ?
-				document.location.href + "/submit-version.php" : "/submit-version",
+				document.location.href + "submit-version.php" : "/submit-version",
 			payload
 		);
 		// выше было  $.post("/submit-version", payload);
