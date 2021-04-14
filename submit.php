@@ -4,8 +4,8 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $campaign_id = '978814'; //Код потока
-$sid1 = $_POST['sid1'];
-$sid2 = $_POST['sid2'];
+// $sid1 = $_POST['sid1'];
+// $sid2 = $_POST['sid2'];
 
 
 $order = array (
@@ -14,8 +14,8 @@ $order = array (
 'ip' => $ip,
 'name' => $name,
 'phone' => $phone,
-'sid1' => $sid1,
-'sid2' => $sid2
+// 'sid1' => $sid1,
+// 'sid2' => $sid2
 
 );
 
