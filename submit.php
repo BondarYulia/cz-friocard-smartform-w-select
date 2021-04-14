@@ -4,6 +4,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $campaign_id = '978814'; //Код потока
+$is_smart_form = $_POST['is_smart_form'];
 // $sid1 = $_POST['sid1'];
 // $sid2 = $_POST['sid2'];
 
@@ -14,6 +15,8 @@ $order = array (
 'ip' => $ip,
 'name' => $name,
 'phone' => $phone,
+'is_smart_form' => $is_smart_form,
+
 // 'sid1' => $sid1,
 // 'sid2' => $sid2
 
